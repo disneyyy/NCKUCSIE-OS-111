@@ -29,4 +29,4 @@ Here are 4 test cases to demonstrate.
 * 4 threads has best efficiency among other cases.
 * when using more than 4 threads, elapsed time will increase because too much thread can cause redundant context switches, which increase operating time.
 > Author：成功大學資訊工程學系113級 鄭鈞智  
-> Last Edit Time： 2023/07/25 12:20
+> Last Edit Time： 2023/07/25 17:11
