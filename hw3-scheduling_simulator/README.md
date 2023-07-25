@@ -3,7 +3,7 @@ Ubuntu 20.04
 # Get Started
 `make clean && make`  
 `./scheduler_simulator [algorithm] (algorithm can be: FCFS, RR or PP)`  
-
+# Introduction
 # Build-in Commands
 Based on hw1-shell, but with a few new commands:  
 * add:
@@ -33,9 +33,7 @@ ps
 start
 ```
 
-# Conclusion
-* When using less threads, elapsed time will become dramatically large.
-* 4 threads has best efficiency among other cases.
-* when using more than 4 threads, elapsed time will increase because too much thread can cause redundant context switches, which increase operating time.
+# Interrupt Handling
+* During a simulation, users can input `Ctrl+Z` to pause simulation and input build-in commands above.  
 > Author：成功大學資訊工程學系113級 鄭鈞智  
-> Last Edit Time： 2023/07/25 17:11
+> Last Edit Time： 2023/07/25 17:36
