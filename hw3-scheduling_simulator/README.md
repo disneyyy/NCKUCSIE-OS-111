@@ -4,6 +4,7 @@ Ubuntu 20.04
 `make clean && make`  
 `./scheduler_simulator [algorithm] (algorithm can be: FCFS, RR or PP)`  
 # Introduction
+# Mechanisms
 # Build-in Commands
 Based on hw1-shell, but with a few new commands:  
 * add:
