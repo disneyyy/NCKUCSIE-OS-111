@@ -95,7 +95,6 @@ turnaround time, resources occupied and priority (if any)
 >>> $ start
 Start simulation.
 ```
-
 # Interrupt Handling
 * During a simulation, users can input `Ctrl+Z` to pause simulation and input build-in commands above.
 ```
@@ -106,6 +105,15 @@ Task T1 goes to sleep.
 Task T2 is running.
 ^Z
 >>> $
+```
+# Others
+* Auto-run
+```
+python3 test/auto_run.py [algorithm] [test_case]
+```
+* Check functionality
+```
+python3 test/judge_shell.py
 ```
 > Author：成功大學資訊工程學系113級 鄭鈞智  
 > Last Edit Time： 2023/07/26 10:24
